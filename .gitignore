@@ -1,0 +1,125 @@
+# Build directories
+build/
+cmake-build-*/
+out/
+
+# Conan files
+conandata.yml
+conaninfo.txt
+conanbuildinfo.*
+conan.lock
+
+# vcpkg
+vcpkg_installed/
+
+# CMake files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+Testing/
+_deps/
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Libraries
+*.so
+*.so.*
+*.dylib
+*.dll
+*.a
+*.lib
+
+# Object files
+*.o
+*.obj
+*.lo
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Generated files
+*.gcno
+*.gcda
+*.gcov
+
+# Coverage files
+coverage.info
+coverage-report/
+*.profdata
+*.profraw
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Documentation generated files
+docs/html/
+docs/latex/
+docs/xml/
+*.aux
+*.log
+*.pdf
+
+# Package files
+*.tar.gz
+*.zip
+*.7z
+
+# Benchmark results
+benchmark_results/
+*.json
+
+# Sanitizer files
+*.asan
+*.msan
+*.tsan
+*.ubsan
+
+# Profiling files
+gmon.out
+*.perf
+callgrind.out.*
+
+# Clang specific
+compile_commands.json
+.clangd/
+
+# Python cache (for scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/ 
+
+CMakeFiles/*
