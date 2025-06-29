@@ -41,7 +41,7 @@ _deps/
 # Precompiled Headers
 *.gch
 *.pch
-
+.cache/
 # Generated files
 *.gcno
 *.gcda
@@ -54,7 +54,6 @@ coverage-report/
 *.profraw
 
 # IDE files
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -120,6 +119,6 @@ __pycache__/
 *$py.class
 
 # Jupyter notebooks checkpoints
-.ipynb_checkpoints/ 
+.ipynb_checkpoints/
 
 CMakeFiles/*
